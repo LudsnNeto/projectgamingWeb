@@ -1,0 +1,56 @@
+body{
+    background-color: #b60000;
+}
+
+
+#login-form{ 
+    position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius:  5px 6px;
+  
+}
+h1{
+    font-family: fantasy;
+
+}
+input{
+    font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 10px;
+}
+  
+#bnt{
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px 10px;
+    text-align: center;
+    width: 100px;
+    padding: 5px ;
+    height: 30px;
+    transition: 0.3s ;
+    
+    
+     
+}
+#bnt:hover {
+    
+    width: 90px;
+    width: 120px; 
+    transition: 0.3s ;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
